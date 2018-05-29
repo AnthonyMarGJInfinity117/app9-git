@@ -30,7 +30,7 @@ function getPosition(){
 		'Longitud:' +position.coords.longitude	  +'\n'+
 		'Altitud:' +position.coords.altitude	  +'\n'+
 		'Accuracy:' +position.coords.accuracy	  +'\n'+
-		'Altitude Accuracy:' +position.coords.aaccuracy	 +'\n'+
+		'Altitude Accuracy:' +position.coords.altitudeAccuracy	 +'\n'+
 		'Heading:' +position.coords.heading 	+'\n'+
 		'Speed:' +position.coords.speed   +'\n'+
 		'Timestamp:' +position.timestamp  +'\n');
@@ -55,7 +55,7 @@ function watchPosition(){
 		$('#longitud').html(position.coords.longitude);
 		$('#altitud').html(position.coords.altitude);
 		$('#accuracy').html(position.coords.accuracy);
-		$('#aaccuracy').html(position.coords.aaccuracy);
+		$('#aaccuracy').html(position.coords.altitudeAccuracy);
 		$('#headingg').html(position.coords.heading);
 		$('#speed').html(position.coords.speed);
 		$('#timestamp').html(position.timestamp);
