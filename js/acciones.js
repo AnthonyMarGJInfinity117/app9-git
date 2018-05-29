@@ -31,7 +31,7 @@ function getPosition(){
 		'Altitud:' +position.coords.altitude	  +'\n'+
 		'Accuracy:' +position.coords.accuracy	  +'\n'+
 		'Altitude Accuracy:' +position.coords.aaccuracy	 +'\n'+
-		'Heading:' +position.coords.headingg	+'\n'+
+		'Heading:' +position.coords.heading 	+'\n'+
 		'Speed:' +position.coords.speed   +'\n'+
 		'Timestamp:' +position.timestamp  +'\n');
 	};
@@ -56,7 +56,7 @@ function watchPosition(){
 		$('#altitud').html(position.coords.altitude);
 		$('#accuracy').html(position.coords.accuracy);
 		$('#aaccuracy').html(position.coords.aaccuracy);
-		$('#headingg').html(position.coords.headingg);
+		$('#headingg').html(position.coords.heading);
 		$('#speed').html(position.coords.speed);
 		$('#timestamp').html(position.timestamp);
 	};
